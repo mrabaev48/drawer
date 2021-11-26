@@ -1,7 +1,7 @@
 import React, {FC} from 'react';
-import AppBarExt from "./AppBarExt";
-import {ToolbarExt} from "./ToolbarExt";
-import {MenuExt} from "./MenuExt";
+import AppBarExt from "../appBar/AppBarExt";
+import {ToolbarExt} from "../toolbar/ToolbarExt";
+import {ToolbarMenu} from "../toolbarMenu/ToolbarMenu";
 
 export interface IHeaderProps {
     open: boolean;
@@ -48,7 +48,7 @@ export const Header:FC<IHeaderProps> = ({handleDrawerOpen, open}) => {
                     handleProfileMenuOpen={handleProfileMenuOpen}
                     mobileMenuId={mobileMenuId}/>
             </AppBarExt>
-            <MenuExt
+            <ToolbarMenu
                 mobileMoreAnchorEl={mobileMoreAnchorEl}
                 desktopAnchorEl={desktopAnchorEl}
                 mobileMenuId={mobileMenuId}

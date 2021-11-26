@@ -10,10 +10,10 @@ import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 import {FC} from "react";
-import DrawerExt from "./components/DrawerExt";
-import DrawerHeader from "./components/DrawerHeader";
-import {Header} from "./components/Header";
-import {BoxExt} from "./components/BoxExt";
+import DrawerExt from "./components/shared/drawer/DrawerExt";
+import DrawerHeader from "./components/shared/drawerHeader/DrawerHeader";
+import {Header} from "./components/shared/header/Header";
+import {BoxExt} from "./components/shared/box/BoxExt";
 
 
 export const App:FC = () => {

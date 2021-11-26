@@ -19,7 +19,7 @@ export interface IMenuProps {
     handleProfileMenuOpen: (event: React.MouseEvent<HTMLElement>) => void;
 }
 
-export const MenuExt:FC<IMenuProps> = (
+export const ToolbarMenu:FC<IMenuProps> = (
     {
         mobileMoreAnchorEl,
         mobileMenuId,
